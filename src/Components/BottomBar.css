@@ -1,0 +1,32 @@
+.footer {
+  background-color: rgb(120, 123, 169);
+  width: 100%;
+}
+
+.footer-list {
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.footer-list > li {
+  list-style: none;
+  padding: 1rem;
+}
+
+.footer-list > li > a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.footer-list > li > a > span {
+  padding-inline: 5px;
+  padding-top: 5px;
+}
+
+.footer-list > li > a > ion-icon {
+  font-size: 25px;
+}

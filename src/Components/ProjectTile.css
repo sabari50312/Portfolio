@@ -1,0 +1,91 @@
+.project-tile-main {
+  background-color: rgb(88, 83, 93);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 25px;
+  margin-inline: auto;
+  cursor: pointer;
+}
+
+.project-tile-img {
+  opacity: 70%;
+  max-width: 100%;
+  border-radius: 15px;
+  padding: 8px;
+  transition: all ease 0.2s;
+}
+
+.project-tile-img:active {
+  border-radius: 15px;
+  padding: 8px;
+}
+.project-tile-img:hover {
+  padding: 0px;
+  border-radius: 10px;
+  opacity: 100%;
+}
+
+.project-tile-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-top: 1rem;
+  max-width: 20rem;
+}
+
+.project-title {
+  color: rgb(255, 102, 0);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.project-desc {
+  color: white;
+}
+
+.project-link {
+  color: white;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.portfolio-title {
+  width: 100%;
+  padding-top: 8rem;
+  margin-inline: auto;
+  text-align: center;
+}
+
+/*  portfolio title */
+#portfolio-title {
+  color: rgb(255, 102, 0);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* my projects title */
+#project-title {
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+
+#view-project {
+  font-size: 1.2rem;
+  padding-top: 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+#arrow {
+  padding-left: 5px;
+  color: rgb(255, 102, 0);
+}

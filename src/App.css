@@ -1,0 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: rgb(39, 30, 54);
+  min-width: 320px;
+}

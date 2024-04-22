@@ -1,0 +1,21 @@
+.skills-list-item {
+  padding: 5px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  list-style: none;
+}
+
+.skills {
+  color: white;
+  width: 80%;
+  max-width: 500px;
+  margin-inline: auto;
+  border: none;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+.list-span {
+  display: flex;
+  justify-content: space-between;
+}

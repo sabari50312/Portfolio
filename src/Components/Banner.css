@@ -1,0 +1,150 @@
+.banner-main {
+  width: 100%;
+  min-height: 640px;
+  height: 100vh;
+  background-image: url("../Assets/wave12.jpg");
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: fit-content;
+  margin-inline: auto;
+  padding-top: 20rem;
+}
+
+.banner-text {
+  color: white;
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.sabari {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.cs-grad {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.profile-pic {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 1px rgb(54, 54, 54);
+}
+
+.developer {
+  padding: 8rem 5rem 0 5rem;
+  /* background-color: rgb(39, 30, 54); */
+  width: 100%;
+}
+
+.dev-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: fit-content;
+  flex-direction: row;
+  margin-inline: auto;
+}
+
+.dev-pic {
+  height: 40%;
+  width: 40%;
+  border-radius: 10px;
+}
+
+.dev-text {
+  color: white;
+  padding-left: 3rem;
+}
+
+#dev1 {
+  color: rgb(255, 102, 0);
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: monospace;
+}
+
+#dev2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+#dev3 {
+  color: rgb(173, 173, 173);
+}
+
+@media (max-width: 900px) {
+  .banner {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-top: 12rem;
+  }
+
+  .banner-text {
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+  .sabari {
+    font-size: 2.5rem;
+  }
+  .cs-grad {
+    font-size: 1rem;
+  }
+  .profile-pic {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .dev-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: fit-content;
+    flex-direction: column;
+    margin-inline: auto;
+  }
+
+  .dev-pic {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .dev-text {
+    color: white;
+    max-width: 100%;
+    padding-left: 0;
+    padding-top: 1rem;
+  }
+
+  #dev1 {
+    color: rgb(255, 102, 0);
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: monospace;
+  }
+
+  #dev2 {
+    padding-top: 0.3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  #dev3 {
+    font-size: 0.8rem;
+    padding-top: 0.3rem;
+    color: rgb(173, 173, 173);
+  }
+}
+
+#about-btn {
+  margin-top: 25px;
+  display: block;
+  margin-inline: auto;
+  width: 90px;
+}

@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  min-height: 5rem;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  color: white;
+  transition: all ease 0.2s;
+}
+
+.hamburger {
+  position: absolute;
+  right: 1rem;
+  top: 1.5rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  background-color: white;
+  height: 2px;
+  width: 100%;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: max-height cubic-bezier(0.33, 0.85, 0.56, 1.02) 0.25s;
+}
+
+.list-container li {
+  list-style-type: none;
+}
+
+.list-container li a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  margin-inline: auto;
+  margin-bottom: 5px;
+}
+
+.list-container li :hover {
+  cursor: pointer;
+  color: orange;
+  transition: color ease 0.2s;
+}
+
+.logo {
+  padding: 1rem;
+  padding-inline: 1rem;
+  /* height: 100%; */
+  display: block;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 805px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    /* min-height: 4rem; */
+    background-color: rgb(39, 30, 54);
+  }
+
+  .list-container {
+    max-height: 0;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .list-container li {
+    padding-bottom: 5px;
+    width: 100%;
+  }
+}
+
+.active {
+  max-height: 25rem;
+}
+
+.scrolled {
+  /* flex: 1; */
+  /* height: 30px; */
+  background-color: rgb(39, 30, 54);
+  box-shadow: 0px -18px 25px 0px white;
+  /* min-height: unset; */
+}
+
+.orange-button {
+  background-color: orangered;
+  color: white;
+  border-radius: 25px;
+  padding: 10px !important;
+  border: none;
+  height: 70%;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  width: fit-content;
+  min-width: 50px;
+  transition: background-color ease-in-out 0.3s !important;
+}
+
+.orange-button:hover {
+  background-color: green;
+  color: white !important;
+}

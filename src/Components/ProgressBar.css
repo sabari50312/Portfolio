@@ -1,0 +1,12 @@
+.skills-progress-box {
+  background-color: white;
+  height: 7px;
+  border-radius: 10px;
+}
+
+.skills-progress {
+  background-color: rgb(255, 102, 0);
+  height: 7px;
+  padding: 0;
+  border-radius: 10px;
+}
